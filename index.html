@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <title>Texte depuis JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>    
+    <div class="container">
+        <p><span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+        <div class="arrow"></div>
+        <div class="loader"></div>
+    </div>
+    <div class="cursor2"></div>
+    <div class="liste-analogies">
+
+    </div>
+    
+
+
+
+    <div id="myModal" class="modal">
+
+        
+        <div class=" card ">
+          <span class="close">&times;</span>
+          <h2>Mentions Legales<br><br>
+            
+            Site réalisé dans le cadre d'un projet scolaire<br><br>
+            
+            Editeur:<br><br>
+
+            Rodriguez Alexander<br><br>
+            
+            Siège social : 2 Rue Albert Einstein, 77420 Champs-sur-Marne<br><br>
+            
+            Numéro de téléphone : 07 83 59 82 13<br><br>
+            
+            Hébergeur:<br><br>
+            
+            IUT Gustave Eiffel<br><br>
+            
+            Siège social : 2 Rue Albert Einstein, 77420 Champs-sur-Marne<br><br>
+            
+            Habillage du site:
+            
+            Rodriguez Alexander<br><br>
+
+            Propriété intellectuelle:<br><br>
+
+Les marques, logos, signes ainsi que tous les contenus du site (textes, images, son…) font l’objet d’une protection par le Code de la propriété intellectuelle et plus particulièrement par le droit d’auteur.
+</h2>
+        </div>
+      
+      </div>
+
+
+      <section id="vous">
+        <div class="columnleft" id="formulaire">
+            <!-- Formulaire HTML -->
+       
+            <form id="form" action="text" method="post">
+                   <h3>C'est à vous maintenant de me suggérer une nouvelle analogie pour mon portrait :
+                   </h3>
+                   <br>
+                   <label for="analogie">Si j'étais</label>
+                   <input type="text" id="analogie" name="analogie" required>
+                   <label for="valeurAnalogie">je serais</label>
+                   <input type="text" id="valeurAnalogie" name="valeurAnalogie" required>
+                   <label for="justificationAnalogie">Description</label>
+                   <textarea id="justificationAnalogie" name="user_message"></textarea><br>
+       
+                   <!-- LIEN VERS L'IMAGE  -->
+                   <label for="imageAnologie">Lien vers l'image : </label>
+                   <input type="file" id="image" name="image" accept="image/*"><br>
+                   
+                   <label for="courriel">Votre adresse email :</label>
+                   <input type="email" id="courriel" name="courriel" placeholder="me@exemple.com" required><br>
+       
+                   <input type="button" id="envoi" value="Envoyer le message !">
+                   <div id="messsageApresEnvoi"></div>
+                   
+               </div>
+           </form>
+    
+           <!-- fin formulaire HTML -->
+          </div> 
+        <div class="columnright" id="visual">
+           
+            
+    
+            
+     <!-- previsualisation -->
+    
+        </div>   
+          
+    
+        
+        <!-- Popup pour le formulaire -->
+    
+    
+    
+        <button id="myBtn" class="mo">Mention Legales</button>
+    
+        
+           
+        
+    </section>
+
+
+</body>
+<script src="data.js"></script>
+<script src="script.js"></script>
+</html>
