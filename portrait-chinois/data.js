@@ -1,0 +1,18 @@
+// JS avec toute les valeurs
+var analogies = ["une couleur","un personnaje","un manga","un film","un livre","une pièce de vêtements","une marque"];
+var valeurAnalogie = ["la couleur violet", "le Joker", "Berserk", "The Truman Show", "You can't hurt me", "un hoodie", "New Yorker"];
+var pito = ["zero","zero2"," zero3"," zero4"," zero5"," zero6"," zero7"];
+var ima = ["violet.jpg","joker.jpg","berserk.jpg","truman.jpg","youcant.jpg","hoodie.jpg","newyorker.png"];
+var ex = ["Le violet est une couleur froide et calmante. Il dégage une certaine noblesse, pour moi elle degage un coté misterieux, symbolisant la créativité, la méditation, la délicatesse ou encore le rêve. Dans le langage des fleurs, le violet est le symbole de l'amour caché. Cette couleur a une tout autre signification dans certaines cultures, où elle peut alors représenter le deuil, la solitude ou la tristesse","Le Joker est l’incarnation même de la démence, il ne possède pas de pouvoir particulier, il agit uniquement par folie et trouble psychologique. Le personnage du joker est un homme ordinaire souffrant de trouble de la personnalité, de psychopathie et de sociopathie. Ces troubles bien réels touchent 3% de la population mondiale, et ont permis de créer un personnage torturé et complexe que les gens idolâtrent justement par cette notion de réalité", "Pour moi, Berserk envoi un message trés important. Lutte. Lutte pour survivre, se battre pour voir le soleil se lever dans une nuit froide et sombre. Luttez pour tous ceux qui sont partis et pour tous ceux qui viendront. Il y aura beaucoup de problèmes, il y aura des moments où vous vous sentirez inutile et voudrez tout abandonner. Vous pleurerez même à cause de l'impuissance de vous heurter à un mur qui ressemble à de l'acier. Mais s'il y a quelqu'un qui peut se tenir debout malgré tous les malheurs, c'est bien vous. Oui, votre vie n'est pas la meilleure du monde, mais battez-vous pour ces moments de paix, ces petites choses qui rendent votre vie moins mauvaise, il y aura toujours une raison de se lever, aussi stupide soit-elle"," C'est un film qui m'a fait rende compte qu'il faut croire en nous mêmes, faire ce que nous en veux peu importe ce que le monde a chosi a notre place, car le destin n'existe pas, on ecris notre futur nous mêmes donc pourquoi pas ecrire un bon futur","'You can't hurt me' est une histoire qui m'a touché, son message est puissant. Peu importe où vous avez été ou combien de traumatismes vous avez subis, vous pouvez toujours en sortir plus fort. Au lieu de croire à la réussite du jour au lendemain, travaillez dur et poussez-vous à donner le meilleur de vous-même. Profitez de la règle des 40 % pour devenir le maître de votre esprit et réaliser plus que vous ne le pensiez","Les hoodies c'est pour moi une pièce qui va avec tout, depuis quelques années j'en porte tout le temps, ça donne un style decontracté mais avec un jean pourrait etre même un peu formal","C'est une marque avec une enorme varietée, on peut trouver n'impote quel style pour un prix accesiblé a tout les budgets, depuis quelques années New Yorker est mon magasin preferé ou je suis sur de trouver ce que je veux"];
+
+
+
+
+
+
+//document.querySelector(".liste-analogies").innerHTML = document.querySelector(".liste-analogies").innerHTML + "<section " + pito[numCase] + "><h2>Si j’étais " + analogie + ", je serais " + valeurAnalogie[numCase] + " <br>" + ex[numCase] + ".</h2><img src='images/" + ima[numCase] + "' alt=''></section><div id='divider'></div>";
+
+
+
+
+//var pito = ['class=" zero"','class=" zero2"','class=" zero3"','class=" zero4"','class=" zero5"','class=" zero6"','class=" zero7"'];
